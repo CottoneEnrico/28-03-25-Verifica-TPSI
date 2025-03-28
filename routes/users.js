@@ -1,9 +1,18 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const users = require('../users.json');
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+router.get('/users', (req, res) => {
+    res.json(users);
+});
+
+router.get('/users/:email', (req, res) => {
+    const user = users.find(u => u.email === req.params.email);
+    if (user) {
+        res.json(user);
+    } else {
+        res.status(404).json({ error: 'Utente non trovato' });
+    }
 });
 
 module.exports = router;
