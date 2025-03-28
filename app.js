@@ -28,12 +28,13 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-app.use(function(err, req, res, next) {
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+app.use((req, res, next) => {
+  res.status(404).send('Pagina non trovata');
+});
 
-  res.status(err.status || 500);
-  res.render('error');
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Errore del server');
 });
 
 module.exports = app;

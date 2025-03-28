@@ -14,10 +14,10 @@ async function fetchUsers() {
             email: user.email
         }));
         
-        fs.writeFileSync('users.json', JSON.stringify(users, null, 2));
-        console.log('Utenti salvati in users.json');
+        fs.writeFileSync("users.json", JSON.stringify(users, null, 2));
+        console.log("Utenti salvati nel file users.json");
     } catch (error) {
-        console.error('Errore nel fetch degli utenti:', error);
+        console.error("Errore nel fetch degli utenti:", error);
     }
 }
 

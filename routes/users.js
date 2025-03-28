@@ -7,7 +7,7 @@ router.get('/users', (req, res) => {
 });
 
 router.get('/users/:email', (req, res) => {
-    const user = users.find(u => u.email === req.params.email);
+    const user = users.find(user => user.email === req.params.email);
     if (user) {
         res.json(user);
     } else {
