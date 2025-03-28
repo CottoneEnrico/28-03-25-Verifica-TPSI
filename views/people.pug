@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= `${user.name.title} ${user.name.first} ${user.name.last}`
+  img(src=user.picture.large, alt=`Foto di ${user.name.first}`)
+  p 
+    strong Genere: 
+    | #{user.gender}
+  p 
+    strong Città: 
+    | #{user.city}
+  p 
+    strong Nazionalità: 
+    | #{user.nat}
+  p 
+    strong Email: 
+    | #{user.email}
