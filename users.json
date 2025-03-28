@@ -1,0 +1,97 @@
+[
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Marko",
+      "last": "Pištalo"
+    },
+    "nat": "RS",
+    "id": {
+      "name": "SID",
+      "value": "219994749"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/61.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/61.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/61.jpg"
+    },
+    "email": "marko.pistalo@example.com"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Miss",
+      "first": "Aada",
+      "last": "Hokkanen"
+    },
+    "nat": "FI",
+    "id": {
+      "name": "HETU",
+      "value": "NaNNA258undefined"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/44.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/44.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/44.jpg"
+    },
+    "email": "aada.hokkanen@example.com"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Miss",
+      "first": "Laura",
+      "last": "Thomsen"
+    },
+    "nat": "DK",
+    "id": {
+      "name": "CPR",
+      "value": "050376-1253"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/32.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/32.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/32.jpg"
+    },
+    "email": "laura.thomsen@example.com"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Madame",
+      "first": "Monika",
+      "last": "Girard"
+    },
+    "nat": "CH",
+    "id": {
+      "name": "AVS",
+      "value": "756.0669.5905.83"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/17.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/17.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/17.jpg"
+    },
+    "email": "monika.girard@example.com"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Miss",
+      "first": "Bernabé",
+      "last": "Arellano"
+    },
+    "nat": "MX",
+    "id": {
+      "name": "NSS",
+      "value": "87 95 60 4608 5"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/22.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/22.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/22.jpg"
+    },
+    "email": "bernabe.arellano@example.com"
+  }
+]
